@@ -16,7 +16,9 @@ export class CourseListComponent implements OnInit {
                 code: "XPS-8796",
                 duration: 120,
                 rating: 4.5,
-                releaseDate: "November, 2, 2019"
+                releaseDate: "November, 2, 2019",
+                description: "Descrição deste curso"
+
             },
             {
                 id: 2,
@@ -26,7 +28,8 @@ export class CourseListComponent implements OnInit {
                 code: "LKL-1094",
                 duration: 80,
                 rating: 4.0,
-                releaseDate: "November, 4, 2019"
+                releaseDate: "November, 4, 2019",
+                description: "Descrição deste curso"
             }
         ]
     }
