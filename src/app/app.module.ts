@@ -8,6 +8,7 @@ import { ReplacePipe } from './pipe/replace.pipe';
 import { StarComponent } from './star/star.component';
 import { CourseListComponent } from './coursers/course-list.component';
 import { AppComponent } from './app.component';
+import { Error404Component } from './error-404/error-404.component';
 
 @NgModule({
   declarations: [
@@ -15,17 +16,21 @@ import { AppComponent } from './app.component';
     CourseListComponent,
     StarComponent,
     ReplacePipe,
-    NavBarComponent
+    NavBarComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
       {
-        path: "", redirectTo: "courses", pathMatch: "full"
+        path: "", redirectTo: "courses", pathMatch: "full" //Raiz do projeto
       },
       {
-        path: "courses", component: CourseListComponent
+        path: "courses", component: CourseListComponent //Rota de algum componente específico
+      },
+      {
+        path: "**", component: Error404Component //Rota para endereço não encontrado
       }
     ])
 
