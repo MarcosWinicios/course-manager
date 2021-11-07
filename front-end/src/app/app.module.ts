@@ -6,12 +6,10 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { Error404Component } from './error-404/error-404.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Error404Component,
   ],
   imports: [
     BrowserModule,
@@ -21,9 +19,6 @@ import { Error404Component } from './error-404/error-404.component';
     RouterModule.forRoot([
       {
         path: "", redirectTo: "courses", pathMatch: "full" //Raiz do projeto
-      },
-      {
-        path: "**", component: Error404Component //Rota para endereço não encontrado
       }
     ])
 

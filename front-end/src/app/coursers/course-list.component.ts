@@ -1,7 +1,6 @@
 import { CourseService } from './course.service';
 import { Component, OnInit } from "@angular/core";
 import { Course } from "./course";
-import { TranslationWidth } from '@angular/common';
 
 @Component({
     templateUrl: "./course-list.component.html"
