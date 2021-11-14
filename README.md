@@ -33,5 +33,5 @@ Trata-se de um CRUD básico de cadastro de cursos.
 3. Abrir o navegador e acessar o endereço `http://localhost:4200/coursers`
 
 ### Telas
- **Home**
- <img href="https://github.com/MarcosWinicios/course-manager/blob/main/telas/form.png">
+ **Lista de cursos**
+ <img href="https://github.com/MarcosWinicios/course-manager/blob/main/telas/list.png?raw=true">
