@@ -34,4 +34,7 @@ Trata-se de um CRUD básico de cadastro de cursos.
 
 ### Telas
  **Lista de cursos**
- <img href="https://github.com/MarcosWinicios/course-manager/blob/main/telas/list.png?raw=true">
+ ![alt text](https://github.com/MarcosWinicios/course-manager/blob/main/telas/list.png?raw=true)
+<br/>
+ **Formulário**
+ ![alt text](https://github.com/MarcosWinicios/course-manager/blob/main/telas/form.png?raw=true)
