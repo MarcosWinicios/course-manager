@@ -31,3 +31,7 @@ Trata-se de um CRUD básico de cadastro de cursos.
         ng serve
 
 3. Abrir o navegador e acessar o endereço `http://localhost:4200/coursers`
+
+### Telas
+ **Home**
+ <img href="https://github.com/MarcosWinicios/course-manager/blob/main/telas/form.png">
